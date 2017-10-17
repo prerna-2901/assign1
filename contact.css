@@ -1,0 +1,32 @@
+
+    .base{
+        width:300px;
+        height: 70px;
+        margin-top: 20px;
+        text-align: center;
+        line-height:10vh;
+        
+        
+    }
+    .show{
+        float: left;
+        position: absolute;
+    
+        background-color:#315C6D;
+        color: black;
+    
+    }
+    .hidden{
+        background-color: black;
+        color: white;
+
+    }
+/*.show:hover +div{
+    display: block;
+}*/
+
+    .show:hover{margin-left:300px;
+        transition: margin-left 1s;
+    }
+
+    .hidden+div{}

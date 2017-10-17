@@ -1,0 +1,6 @@
+table,th,td{
+        
+        border: 1px outset black;
+        border-collapse: collapse;
+color:rgb(0, 0, 0);    
+}
